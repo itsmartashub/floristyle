@@ -1,8 +1,18 @@
 <h1 align="center">Gboard-ish FlorisBoard -🐞DEBUG🐞</h1>
 <h3 align="center">Material You themes for the FlorisBoard keyboard. </h3>
 
+<div align="center">
+    <div>
+      <img src="assets/merged_ld_lighter.png" alt="myd_light_borderless" width="27%" />
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="assets/merged_ld_borderless_lighter.png" alt="myd_light" width="27%" />
+       &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="assets/merged_amoled.png" alt="myd_light" width="27%" />
+    </div>
+</div>
+
 <details>
-<summary><h2>🖼️ Screenshots <br/>&nbsp;👉<b>[CLICK ME]</b>👈</h2></summary>
+<summary><h2>🖼️ More Screenshots <br/>&nbsp;&nbsp;&nbsp;&nbsp;👉<b>[CLICK ME]</b>👈</h2></summary>
 
 -   While all of these themes are examples based on a single color palette, the themes themselves are <b>dynamic</b>. So they are built on Material You introduced in <b>Android 12</b>, which generates a <b>dynamic palette based on the user's home wallpaper</b>.
 
