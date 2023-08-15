@@ -76,7 +76,7 @@
 -   You should see `10` new themes.
 -   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme` and `🌙 Night theme`
 
-## 📖Credits
+## 📖 Credits
 
 -   [FlorisBoard](https://github.com/florisboard/florisboard) is a remarkable free and open-source keyboard developed by [patrickgold](https://github.com/patrickgold).
 -   The `app-debug.apk` [[link](https://github.com/florisboard/florisboard/actions/runs/5039154715/job/13643367775?pr=2213)] file for this project has been enriched with captivating [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors), thanks to the creative touch of 🐦[1fexd](https://github.com/1fexd)🐦.
