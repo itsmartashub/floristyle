@@ -11,6 +11,7 @@
     </div>
 </div>
 
+<div align="center">
 <details>
 <summary><h2>🖼️ More Screenshots <br/>&nbsp;&nbsp;&nbsp;&nbsp;👉<b>[CLICK ME]</b>👈</h2></summary>
 
@@ -49,6 +50,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 </details>
+</div>
 
 ## 💥 Important
 
