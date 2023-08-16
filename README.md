@@ -3,11 +3,11 @@
 
 <div align="center">
     <div>
-      <img src="assets/merged_ld_lighter.png" alt="myd_light_borderless" width="27%" />
+      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="27%" />
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_ld_borderless_lighter.png" alt="myd_light" width="27%" />
+      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="27%" />
        &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_amoled.png" alt="myd_light" width="27%" />
+      <img src="assets/merged_amoled_green.png" alt="myd_light" width="27%" />
     </div>
 </div>
 
