@@ -55,7 +55,7 @@
 ## 💥 Important
 
 -   To make this work it is important to use [this](https://github.com/florisboard/florisboard/actions/runs/5039154715/job/13643367775?pr=2213) `debug` FlorisBoard version in which the [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) has been integrated by 🐦[1fexd](https://github.com/1fexd)🐦.
--   I encourage you to get the `apk` directly from the [Github Actions](https://github.com/florisboard/florisboard/actions/runs/5039154715/job/13643367775?pr=2213) or build your own from the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors). I merely placed that version [here](https://github.com/itsmartashub/florigboard/releases/download/v1.0.0/florisboard-0.4.0-debug-MYD.apk) (`florisboard-0.4.0-debug-MYD.apk`) to keep things together!
+-   I encourage you to get the `apk` directly from the ~~[Github Actions](https://github.com/florisboard/florisboard/actions/runs/5039154715/job/13643367775?pr=2213)~~ [**expired**] or build your own from the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors). I merely placed that version [here](https://github.com/itsmartashub/florigboard/releases/download/v1.0.0/florisboard-0.4.0-debug-MYD.apk) (`florisboard-0.4.0-debug-MYD.apk`) to keep things together!
 
 ## ⚠️ Warning
 
@@ -76,7 +76,7 @@
 -   Click on `Import` ➡️ `Select files`
 -   Select the `flex` file you have downloaded (`gboardish_florisboard.flex`)
 -   You should see `10` new themes.
--   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme` and `🌙 Night theme`
+-   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
 
 ## 📖 Credits
 
