@@ -13,7 +13,7 @@
 
 <div align="center">
 <details>
-<summary><h2>🖼️ More Screenshots <br/>&nbsp;&nbsp;&nbsp;&nbsp;👉<b>[CLICK ME]</b>👈</h2></summary>
+<summary><h2>🖼️ More Screenshots</summary>
     
 -   While all of these themes are examples based on a single color palette, the themes themselves are <b>dynamic</b>. So they are built on Material You introduced in <b>Android 12</b>, which generates a <b>dynamic palette based on the user's home wallpaper</b>.
 
