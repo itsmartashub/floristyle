@@ -1,4 +1,5 @@
 <h1 align="center">Gboard-ish FlorisBoard -🐞DEBUG🐞</h1>
+<h2 align="center">⚠️ THIS IS NOT A FLORISBOARD FORK ⚠️ </h2>
 <h3 align="center">Material You themes for the FlorisBoard keyboard. </h3>
 
 <div align="center">
