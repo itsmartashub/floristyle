@@ -57,6 +57,7 @@
 
 -   To make this work it is important to use ~~[this](https://github.com/florisboard/florisboard/actions/runs/5039154715/job/13643367775?pr=2213)~~ [**expired**] `debug` FlorisBoard version in which the [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) has been integrated by 🐦[1fexd](https://github.com/1fexd)🐦.
 -   I encourage you to get the `apk` directly from the ~~[Github Actions](https://github.com/florisboard/florisboard/actions/runs/5039154715/job/13643367775?pr=2213)~~ [**expired**] or build your own from the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors). I merely placed that version [**here**](https://github.com/itsmartashub/florigboard/releases/v2.0.0/) (`florisboard-0.4.0-debug-MYD.apk`) to keep things together!
+-   Once Patrick officially merges [1fexd](https://github.com/1fexd)'s Material You feature into future updates and make release with it implemented, the APK file from here will be removed.
 
 ## ⚠️ Warning (disclaimers)
 
