@@ -6,11 +6,11 @@
 
 <div align="center">
     <div>
-      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="30%" />
+      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="40" />
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="30%" />
+      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="40" />
        &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_amoled_green.png" alt="myd_light" width="30%" />
+      <img src="assets/merged_amoled_green.png" alt="myd_light" width="40" />
     </div>
 </div>
 
