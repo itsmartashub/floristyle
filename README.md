@@ -62,12 +62,6 @@
 -   I encourage you to get the `.apk` by building on your own from the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors). But i have also placed the `.apk` file of that version [**here**](https://github.com/itsmartashub/florigboard/releases) (`florisboard-0.4.0-debug-MYD.apk`) to keep things together!
 -   Once Patrick officially merges [1fexd](https://github.com/1fexd)'s Material You feature into future updates and make release with it implemented, the APK file from here will be removed.
 
-## ⚠️ Warning (disclaimers)
-
-- As a 🎨**MDY Themes Creator**🎨, my involvement is limited to the creation of themes (`gboardish.flex` file). I do not engage in alterations to the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) nor initiate FlorisBoard `commits`.
-- The provided `florisboard-0.4.0-debug-MYD.apk` file represents a 🐞`debug`🐞 version of [FlorisBoard](https://github.com/florisboard/florisboard). Please anticipate the presence of bugs and anomalies in its functionality.
-- The themes have been tested on **Android 12 and 13**. Material You **is not supported** on any OS version lower than Android 12. However, I could create a few **static** themes that resemble Gboard.
-
 ## 🎨 Themes <sup><b><code>10</code><b></sup>
 
 -   ☀️ **LIGHT** (Border/Borderless)
@@ -83,6 +77,12 @@
 -   Select the `flex` file you have downloaded (`gboardish.flex`)
 -   You should see **10** new themes.
 -   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
+
+## ⚠️ Warning (disclaimers)
+
+- As a 🎨**MDY Themes Creator**🎨, my involvement is limited to the creation of themes (`gboardish.flex` file). I do not engage in alterations to the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) nor initiate FlorisBoard `commits`.
+- The provided `florisboard-0.4.0-debug-MYD.apk` file represents a 🐞`debug`🐞 version of [FlorisBoard](https://github.com/florisboard/florisboard). Please anticipate the presence of bugs and anomalies in its functionality.
+- The themes have been tested on **Android 12 and 13**. Material You **is not supported** on any OS version lower than Android 12. However, I could create a few **static** themes that resemble Gboard.
 
 ## 📖 Credits
 
