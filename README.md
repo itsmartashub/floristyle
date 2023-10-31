@@ -76,7 +76,8 @@
 
 ## ⚙️ Setup
 
--   Open the **FlorisBoard Debug** app (it's important to install this `.apk` version)
+-   Open the **FlorisBoard Debug** app 
+  - (it's important to install this `.apk` version)
 -   Click on `Theme` ➡️ `Manage installed themes`
 -   Click on `Import` ➡️ `Select files`
 -   Select the `flex` file you have downloaded (`gboardish.flex`)
