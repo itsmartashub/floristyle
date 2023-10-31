@@ -1,4 +1,4 @@
-<h2 align="center">⚠️ THIS IS NOT A FLORISBOARD FORK </h2>
+<h3 align="center">⚠️ THIS IS NOT A FLORISBOARD FORK </h2>
 <h1 align="center">Gboard-ish FlorisBoard
 <br>🐞DEBUG🐞
 </h1>
@@ -76,11 +76,11 @@
 
 ## ⚙️ Setup
 
--   Open the **FlorisBoard Debug** app (it's important to install this `apk` version)
+-   Open the **FlorisBoard Debug** app (it's important to install this `.apk` version)
 -   Click on `Theme` ➡️ `Manage installed themes`
 -   Click on `Import` ➡️ `Select files`
 -   Select the `flex` file you have downloaded (`gboardish.flex`)
--   You should see `10` new themes.
+-   You should see **10** new themes.
 -   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
 
 ## 📖 Credits
