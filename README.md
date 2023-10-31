@@ -1,4 +1,4 @@
-<h3 align="center">⚠️ THIS IS NOT A FLORISBOARD FORK </h2>
+<h2 align="center">⚠️ THIS IS NOT A FLORISBOARD FORK </h2>
 <h1 align="center">Gboard-ish FlorisBoard
 <br>🐞DEBUG🐞
 </h1>
