@@ -65,7 +65,6 @@
 
 -   ☀️ **LIGHT** (Border/Borderless)
 -   🌒 **DARK** (Border/Borderless)
--   🌑 **DARKER** (Border/Borderless)
 -   ⚫ **AMOLED** (Border/Borderless)
 
 ## ⚙️ Setup
