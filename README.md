@@ -1,6 +1,6 @@
 
 <h1 align="center">💚 Fboard 💚
-    <h3 align="center">✨ A fork of the Florigboard theme ✨</h2>
+    <h3 align="center">✨ A fork of the Florigboard theme ✨</h3>
 
 <p align="center"><b>Credits to PatrickGold, 1fexd and ismartashub for making this repo possibe!</b></p>
 
