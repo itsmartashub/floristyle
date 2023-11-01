@@ -6,9 +6,9 @@
 
 <div align="center">
     <div>
-      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="200" />
-      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="200" />
-      <img src="assets/merged_amoled_green.png" alt="myd_light" width="200" />
+      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="150" />
+      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="150" />
+      <img src="assets/merged_amoled_green.png" alt="myd_light" width="150" />
     </div>
 </div>
 
