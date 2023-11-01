@@ -6,11 +6,11 @@
 
 <div align="center">
     <div>
-      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="150" />
+      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="30%" />
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="150" />
+      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="30%" />
        &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_amoled_green.png" alt="myd_light" width="150" />
+      <img src="assets/merged_amoled_green.png" alt="myd_light" width="30%" />
     </div>
 </div>
 
@@ -62,7 +62,7 @@
 -   I encourage you to get the `.apk` by building on your own from the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors). But i have also placed the `.apk` file of that version [**here**](https://github.com/itsmartashub/florigboard/releases) (`florisboard-0.4.0-debug-MYD.apk`) to keep things together!
 -   Once Patrick officially merges [1fexd](https://github.com/1fexd)'s Material You feature into future updates and make release with it implemented, the APK file from here will be removed.
 
-## 🎨 Themes <sup><b><code>10</code><b></sup>
+## 🎨 Themes <sup><b><code>10</code></b></sup>
 
 -   ☀️ **LIGHT** (Border/Borderless)
 -   🌒 **DARK** (Border/Borderless)
@@ -71,7 +71,7 @@
 ## ⚙️ Setup
 
 -   Open the **FlorisBoard Debug** app 
-  - (it's important to install this `.apk` version)
+    - (it's important to install this [`.apk`](https://github.com/itsmartashub/florigboard/releases))
 -   Click on `Theme` ➡️ `Manage installed themes`
 -   Click on `Import` ➡️ `Select files`
 -   Select the `flex` file you have downloaded (`gboardish.flex`)
@@ -80,7 +80,7 @@
 
 ## ⚠️ Warning (disclaimers)
 
-- As a 🎨**MDY Themes Creator**🎨, my involvement is limited to the creation of themes (`gboardish.flex` file). I do not engage in alterations to the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) nor initiate FlorisBoard `commits`.
+- As a 🎨 **MDY Themes Creator** 🎨, my involvement is limited to the creation of themes (`gboardish.flex` file). I do not engage in alterations to the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) nor initiate FlorisBoard `commits`.
 - The provided `florisboard-0.4.0-debug-MYD.apk` file represents a 🐞`debug`🐞 version of [FlorisBoard](https://github.com/florisboard/florisboard). Please anticipate the presence of bugs and anomalies in its functionality.
 - The themes have been tested on **Android 12 and 13**. Material You **is not supported** on any OS version lower than Android 12. However, I could create a few **static** themes that resemble Gboard.
 
