@@ -1,8 +1,7 @@
 
-<h1 align="center">💚 Fboard 💚
-<h3 align="center"><a href="https://github.com/itsmartashub/florigboard">✨ A fork of the Florigboard theme ✨</a></h3>
+<h1 align="center">💚 Florigboard 💚
 
-<p align="center"><b>Credits to PatrickGold, 1fexd and ismartashub for making this repo possibe!</b></p>
+<p align="center"><b>Credits to PatrickGold, 1fexd for making this all possible!</b></p>
 
 </h1>
 <h3 align="center">A set of <a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
@@ -71,7 +70,7 @@
 
 
 -   Open the **FlorisBoard Debug** app 
-     - (it's important to install one of these [`.apk`](https://github.com/TeaOwO/Florigboard-fork/edit/Main/README.md#-important))
+     - (it's important to install one of these [`.apk`](https://github.com/ismartahub/Florigboard/edit/Main/README.md#-important))
 - Click on `Theme` &rarr; `Manage installed themes`
 - Click on `Import` &rarr; `Select files`
 - Select the `flex` file you have downloaded
