@@ -1,5 +1,5 @@
 
-<h1 align="center">💚 FBoard 💚
+<h1 align="center">💚 Fboard 💚
     <h3 align="center">✨ A fork of the Florigboard theme ✨</h2>
 </h1>
 <h3 align="center">A set of <a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
