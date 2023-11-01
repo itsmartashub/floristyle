@@ -2,15 +2,14 @@
 <h1 align="center">Gboard-ish FlorisBoard
 <br>🐞DEBUG🐞
 </h1>
-<h3 align="center"><a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
+<h3 align="center">A set of <a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
 
 <div align="center">
     <div>
-      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="30%" />
+      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="35%" />
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="30%" />
-       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_amoled_green.png" alt="myd_light" width="30%" />
+      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="35%" />
+      <img src="assets/merged_amoled_green.png" alt="myd_light" width="35%" />
     </div>
 </div>
 
@@ -57,7 +56,7 @@
 
 ## ❗ Important
 
--   To make this work it is important to use [this](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804)<sup><code>debug</code></sup> FlorisBoard version in which the [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) has been integrated by <img src="https://github.com/itsmartashub/florigboard/assets/123305689/39821df6-c679-4339-b21e-166095cc16c5" width="25"> <a href="https://github.com/1fexd">1fexd </a>
+-   To make this work it is important to use [this](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804)<sup><code>debug</code></sup> FlorisBoard version in which the [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) has been integrated by <img src="https://github.com/TeaOwO/florigboard/assets/123305689/ce12b8ba-34c9-44d6-88bb-e5514cf542e7" width="25"> <a href="https://github.com/1fexd">1fexd </a>
 
 -   I encourage you to get the `.apk` by building on your own from the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors). But i have also placed the `.apk` file of that version [**here**](https://github.com/itsmartashub/florigboard/releases) (`florisboard-0.4.0-debug-MYD.apk`) to keep things together!
 -   Once Patrick officially merges [1fexd](https://github.com/1fexd)'s Material You feature into future updates and make release with it implemented, the APK file from here will be removed.
@@ -66,17 +65,19 @@
 
 -   ☀️ **LIGHT** (Border/Borderless)
 -   🌒 **DARK** (Border/Borderless)
--   🌑 **AMOLED** (Border/Borderless)
+-   🌑 **DARKER** (Border/Borderless)
+-   ⚫ **AMOLED** (Border/Borderless)
 
 ## ⚙️ Setup
 
+
 -   Open the **FlorisBoard Debug** app 
     - (it's important to install this [`.apk`](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804))
--   Click on `Theme` ➡️ `Manage installed themes`
--   Click on `Import` ➡️ `Select files`
+-   Click on `Theme` &rarr; `Manage installed themes`
+-   Click on `Import` &rarr; `Select files`
 -   Select the `flex` file you have downloaded (`gboardish.flex`)
 -   You should see **10** new themes.
--   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
+-   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme` and `🌙 Night theme`
 
 ## ⚠️ Warning (disclaimers)
 
@@ -87,5 +88,5 @@
 ## 📖 Credits
 
 -   [FlorisBoard](https://github.com/florisboard/florisboard) is a remarkable free and open-source keyboard developed by [patrickgold](https://github.com/patrickgold).
--   The `app-debug.apk` [[link](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804)] file for this project has been enriched with captivating [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors), thanks to the creative touch of  <img src="https://github.com/itsmartashub/florigboard/assets/123305689/39821df6-c679-4339-b21e-166095cc16c5" width="25"> <a href="https://github.com/1fexd">1fexd </a>. Big thanks for making dynamic themes possible 🙏
+-   The `app-debug.apk` [[link](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804)] file for this project has been enriched with captivating [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors), thanks to the creative touch of  <img src="https://github.com/TeaOwO/florigboard/assets/123305689/ce12b8ba-34c9-44d6-88bb-e5514cf542e7" width="25"> <a href="https://github.com/1fexd">1fexd </a>. Big thanks for making dynamic themes possible 🙏
 -   I want to extend a big thank to the brilliant developer behind the ingenious, unique, feature-rich **FlorisBoard Theme Editor** especially – [patrickgold](https://github.com/patrickgold). His outstanding invention make it possible to create custom themes. His exceptional work is truly greatly appreciated. 💖
