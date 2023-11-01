@@ -1,6 +1,6 @@
-<h3 align="center">⚠️ THIS IS NOT A FLORISBOARD FORK</h2>
-<h1 align="center">Gboard-ish FlorisBoard
-<br>🐞DEBUG🐞
+
+<h1 align="center">💚 FBoard 💚
+    <h3 align="center">✨ A fork of the Florigboard theme ✨</h2>
 </h1>
 <h3 align="center">A set of <a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
 
@@ -56,9 +56,8 @@
 
 ## ❗ Important
 
--   To make this work it is important to use [this](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804)<sup><code>debug</code></sup> FlorisBoard version in which the [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) has been integrated by <img src="https://github.com/TeaOwO/florigboard/assets/123305689/ce12b8ba-34c9-44d6-88bb-e5514cf542e7" width="25"> <a href="https://github.com/1fexd">1fexd </a>
-
--   I encourage you to get the `.apk` by building on your own from the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors). But i have also placed the `.apk` file of that version [**here**](https://github.com/itsmartashub/florigboard/releases) (`florisboard-0.4.0-debug-MYD.apk`) to keep things together!
+-   **IT IS REQUIRED TO USE THIS VERSION OF FLORISBOARD:** [Material You Florisboard Version](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804)<sup><code>debug</code></sup> as it has the [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) credits to <img src="https://github.com/TeaOwO/florigboard/assets/123305689/ce12b8ba-34c9-44d6-88bb-e5514cf542e7" width="25"> <a href="https://github.com/1fexd">1fexd </a>
+  - Other Mirror links: [#1](https://github.com/itsmartashub/florigboard/releases), [#2](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804), [#3](https://github.com/TeaOwO/Gboard-for-Florisboard-theme/releases/download/v3.5.3/MaterialYou_v3.5.2.flex), [#4](https://www.mediafire.com/file/pywec1eo0iqze0j/dev.patrickgold.florisboard.debug.apk/file)
 -   Once Patrick officially merges [1fexd](https://github.com/1fexd)'s Material You feature into future updates and make release with it implemented, the APK file from here will be removed.
 
 ## 🎨 Themes <sup><b><code>10</code></b></sup>
@@ -72,17 +71,17 @@
 
 
 -   Open the **FlorisBoard Debug** app 
-    - (it's important to install this [`.apk`](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804))
--   Click on `Theme` &rarr; `Manage installed themes`
--   Click on `Import` &rarr; `Select files`
--   Select the `flex` file you have downloaded (`gboardish.flex`)
--   You should see **10** new themes.
--   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme` and `🌙 Night theme`
+  - (it's important to install one of these [`.apk`](https://github.com/TeaOwO/Florigboard-fork/edit/Main/README.md#-important))
+- Click on `Theme` &rarr; `Manage installed themes`
+- Click on `Import` &rarr; `Select files`
+- Select the `flex` file you have downloaded (`gboardish.flex`)
+- You should see **10** new themes.
+- Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day` and `🌙 Night`
 
-## ⚠️ Warning (disclaimers)
+## ⚠️ Disclaimers
 
-- As a 🎨 **MDY Themes Creator** 🎨, my involvement is limited to the creation of themes (`gboardish.flex` file). I do not engage in alterations to the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) nor initiate FlorisBoard `commits`.
-- The provided `florisboard-0.4.0-debug-MYD.apk` file represents a 🐞`debug`🐞 version of [FlorisBoard](https://github.com/florisboard/florisboard). Please anticipate the presence of bugs and anomalies in its functionality.
+- My involvement is limited to the creation of themes (`gboardish.flex` file). I do not engage in alterations to the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) nor initiate FlorisBoard `commits`.
+- The provided `florisboard-0.4.0-debug-MYD.apk` file represents a `debug` version of [FlorisBoard](https://github.com/florisboard/florisboard). Please anticipate the presence of bugs and anomalies in its functionality.
 - The themes have been tested on **Android 12 and 13**. Material You **is not supported** on any OS version lower than Android 12. However, I could create a few **static** themes that resemble Gboard.
 
 ## 📖 Credits
