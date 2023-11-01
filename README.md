@@ -59,7 +59,7 @@
     - Other Mirror links: [#1](https://github.com/itsmartashub/florigboard/releases), [#2](https://github.com/florisboard/florisboard/suites/17812626523/artifacts/1021315804), [#3](https://github.com/TeaOwO/Fboard/releases/download/v2.0.1/Florisboard-Debug.apk), [#4](https://www.mediafire.com/file/pywec1eo0iqze0j/dev.patrickgold.florisboard.debug.apk/file)
 - Credits to <img src="https://github.com/TeaOwO/florigboard/assets/123305689/ce12b8ba-34c9-44d6-88bb-e5514cf542e7" width="25"> <a href="https://github.com/1fexd">1fexd </a> for making this possible!
 
-## 🎨 Themes <sup><b><code>6</code></b></sup>
+## 🎨 Themes <sup><b><code>10</code></b></sup>
 
 -   ☀️ **LIGHT** (Border/Borderless)
 -   🌒 **DARK** (Border/Borderless)
