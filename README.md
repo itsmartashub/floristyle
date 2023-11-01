@@ -6,7 +6,7 @@
 
 <div align="center">
     <div>
-      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="50" />
+      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="50%" />
       <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="50%" 
 />
 
