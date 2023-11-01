@@ -2,7 +2,7 @@
 <h1 align="center">💚 Fboard 💚
     <h3 align="center">✨ A fork of the Florigboard theme ✨</h2>
 
-<p align="center"><b>Credits to PatrickGold, 1fexd and Smartashub for naking this repo possibe!</b></p>
+<p align="center"><b>Credits to PatrickGold, 1fexd and ismartashub for making this repo possibe!</b></p>
 
 </h1>
 <h3 align="center">A set of <a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
