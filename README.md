@@ -2,15 +2,14 @@
 <h1 align="center">Gboard-ish FlorisBoard
 <br>🐞DEBUG🐞
 </h1>
-<h3 align="center"><a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
+<h3 align="center">A set of <a href="https://m3.material.io/">Material You</a> themes for the FlorisBoard keyboard. </h3>
 
 <div align="center">
     <div>
-      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="30%" />
+      <img src="assets/merged_ld_green.png" alt="myd_light_borderless" width="35%" />
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="30%" />
-       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="assets/merged_amoled_green.png" alt="myd_light" width="30%" />
+      <img src="assets/merged_ld_borderless_green.png" alt="myd_light" width="35%" />
+      <img src="assets/merged_amoled_green.png" alt="myd_light" width="35%" />
     </div>
 </div>
 
@@ -66,18 +65,19 @@
 
 -   ☀️ **LIGHT** (Border/Borderless)
 -   🌒 **DARK** (Border/Borderless)
--   🌑 **AMOLED** (Border/Borderless)
+-   🌑 **DARKER** (Border/Borderless)
+-   ⚫ **AMOLED** (Border/Borderless)
 
 ## ⚙️ Setup
 
 
 -   Open the **FlorisBoard Debug** app 
     - (it's important to install this [`.apk`](https://github.com/itsmartashub/florigboard/releases))
--   Click on `Theme` ➡️ `Manage installed themes`
--   Click on `Import` ➡️ `Select files`
+-   Click on `Theme` &rarr; `Manage installed themes`
+-   Click on `Import` &rarr; `Select files`
 -   Select the `flex` file you have downloaded (`gboardish.flex`)
 -   You should see **10** new themes.
--   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
+-   Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme` and `🌙 Night theme`
 
 ## ⚠️ Warning (disclaimers)
 
