@@ -1,6 +1,5 @@
 
-<h1 align="center">💚 Florigboard 💚
-
+<h1 align="center">💚 Florigboard 💚</h1>
 <p align="center"><b>Credits to PatrickGold, 1fexd for making this all possible!</b></p>
 
 </h1>
