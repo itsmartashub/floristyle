@@ -5,7 +5,7 @@
 
 <div align="center">
     <div>
-      <img src="assets/greens-floristyle.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-greenish-home-wallpaper" width="100%"  />
+      <img src="assets/greens-floristyle-optimized.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-greenish-home-wallpaper" width="100%"  />
     </div>
 </div>
 
@@ -32,7 +32,7 @@
 
 ⚠️ **TO MAKE THIS WORK IT IS CRUCIAL TO USE `apk` FILE ATTACHED IN [RELEASES](https://github.com/itsmartashub/floristyle/releases/)**.
 
--   This represents a [`debug` Florisboard version](https://github.com/florisboard/florisboard/actions/runs/5039154715?pr=2213) in which the [Material Design features](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) has been integrated by [@1fexd](https://github.com/1fexd).
+-   It represents a [`debug` Florisboard version](https://github.com/florisboard/florisboard/actions/runs/5039154715?pr=2213) in which the Material Design features has been integrated by [@1fexd](https://github.com/1fexd).
 
 -   Once [@patrickgold](https://github.com/patrickgold) officially merges [@1fexd](https://github.com/1fexd)'s Material You feature into future updates and make release with it implemented, the `apk` file from here **will be removed**.
 
