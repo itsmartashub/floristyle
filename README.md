@@ -9,21 +9,21 @@
     </div>
 </div>
 
-<br/><br/>
+<br/>
 
 <div align="center">
     <details>
         <summary>
             <b>MORE SCREENSHOTS</b>
         </summary>
+&nbsp;
+<p>While all of these themes are examples based on a single color palette, the themes themselves are <b>dynamic</b>. So they are built on Material You introduced in <b>Android 12</b>, which generates a <b>dynamic palette based on the user's home wallpaper.</b></p>
 
--   While all of these themes are examples based on a single color palette, the themes themselves are <b>dynamic</b>. So they are built on Material You introduced in <b>Android 12</b>, which generates a <b>dynamic palette based on the user's home wallpaper</b>.
+<div align="center">
+    <img src="assets/purples-floristyle.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-purplish-home-wallpaper" width="100%" />
+</div>
 
-    <div align="center">
-      <img src="assets/purples-floristyle.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-purplish-home-wallpaper" width="100%" />
-    </div>
-
-    </details>
+</details>
 </div>
 
 <br/><br/>
