@@ -1,23 +1,27 @@
-<h1 align="center">Gboardish Florisboard</h1>
+<h1 align="center">GBOARDISH FLORISBOARD</h1>
 <h2 align="center">Material You themes for the Florisboard keyboard. </h2>
+
 <br/><br/>
 
 <div align="center">
     <div>
-      <img src="assets/greenish.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-greenish-home-wallpaper" width="100%"  />
+      <img src="assets/greenish-orange-fork.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-greenish-home-wallpaper" width="100%"  />
     </div>
 </div>
 
 <div align="center">
-<details>
-<summary><h2> More Screenshots</summary>
-    
+    <details>
+        <summary>
+            <b>MORE SCREENSHOTS</b>
+        </summary>
+
 -   While all of these themes are examples based on a single color palette, the themes themselves are <b>dynamic</b>. So they are built on Material You introduced in <b>Android 12</b>, which generates a <b>dynamic palette based on the user's home wallpaper</b>.
 
-<div align="center">
-  <img src="assets/purplish.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-purplish-home-wallpaper" width="100%" />
-</div>
-</details>
+    <div align="center">
+      <img src="assets/purplish.png" alt="material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-purplish-home-wallpaper" width="100%" />
+    </div>
+
+    </details>
 </div>
 
 ## Important
@@ -32,12 +36,12 @@
 
 ## Setup
 
-**1.** Open the **FlorisBoard Debug** app <sup>[it's important to install [this](https://github.com/itsmartashub/florigboard/releases/v2.0.0) `apk` version]</sup> <br/>
-**2.** Click on `Theme` ➡️ `Manage installed themes` <br/>
-**3.** Click on `Import` ➡️ `Select files` <br/>
-**4.** Select the `flex` file you have downloaded <sup>`gboardish.flex`</sup> <br/>
-**5.** You should see `10` new themes. <br/>
-**6.** Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
+**1.** &nbsp; Open the **FlorisBoard Debug** app <sup>[it's important to install [this](https://github.com/itsmartashub/florigboard/releases/v2.0.0) `apk` version]</sup> <br/>
+**2.** &nbsp; Click on `Theme` ➡️ `Manage installed themes` <br/>
+**3.** &nbsp; Click on `Import` ➡️ `Select files` <br/>
+**4.** &nbsp; Select the `flex` file you have downloaded <sup>`gboardish.flex`</sup> <br/>
+**5.** &nbsp; You should see `10` new themes. <br/>
+**6.** &nbsp; Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
 
 ## Themes <sup>(10)</sup>
 
@@ -48,7 +52,7 @@
 
 ## Warnings
 
--   As a Material You themes creator, my involvement is limited to the creation of themes <sup>[`gboardish.flex` file]</sup>. I do not engage in alterations to the [source code](https://github.com/1fexd/florisboard/tree/feature/material-you-theme-colors) nor initiate FlorisBoard `commits`.
+-   As a Material You themes creator, my involvement is limited to the creation of themes <sup>`gboardish.flex`</sup>. I do not engage in alterations to the source code nor initiate Florisboard `commits`.
 -   The provided `florisboard-0.4.0-debug-MYD.apk` file represents a `DEBUG` version of [Florisboard](https://github.com/florisboard/florisboard). Please anticipate the presence of bugs and anomalies in its functionality.
 -   The themes have been tested on **Android 12** and **13**.
 
