@@ -5,7 +5,7 @@
 
 <div align="center">
     <div>
-      <img src="assets/greens.png" alt="floristyled-material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-greenish-home-wallpaper" width="100%"  />
+      <img src="assets/greens-floristyle.png" alt="floristyled-material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-greenish-home-wallpaper" width="100%"  />
     </div>
 </div>
 
@@ -18,7 +18,7 @@
 <p>While all of these themes are examples based on a single color palette, the themes themselves are <b>dynamic</b>. So they are built on Material You introduced in <b>Android 12</b>, which generates a <b>dynamic palette based on the user's home wallpaper.</b></p>
 
 <div align="center">
-    <img src="assets/purples.png" alt="floristyled-material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-purplish-home-wallpaper" width="100%" />
+    <img src="assets/purples-floristyle.png" alt="floristyled-material-you-keyboard-themes-with-light-dark-and-amoled-modes-based-on-purplish-home-wallpaper" width="100%" />
 </div>
 
 </details>
