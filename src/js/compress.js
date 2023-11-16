@@ -16,7 +16,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'tweak candidate-spacer color'
+let changesName = 'clipboard-item-popup shape-rounded-hc to shape-rounded'
 // changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
