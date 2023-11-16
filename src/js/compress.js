@@ -16,7 +16,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'emoji-key code -211 and -7 2 match gboard'
+let changesName = 'fsz-spacebar - add everywhere'
 // changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
