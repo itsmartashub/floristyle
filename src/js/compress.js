@@ -16,7 +16,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'fsz-spacebar - add everywhere'
+let changesName = 'emoji-key-tab:focused tweaak color'
 // changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
