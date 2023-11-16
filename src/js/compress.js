@@ -16,16 +16,16 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'te'
-changesName = changesName.replaceAll(' ', '_')
+let changesName = 'adjust font size and introduce new vars fsz-candidate-word, fsz-candidate-clip)'
+// changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
 const inputFolderPath = '../flex_decompressed'
 const outputFlexFilePathDev = path.join(
 	__dirname,
 	'../flex_compressed/dev',
-	`gboardish-${formatCurrTime()}.flex`
-	// `gboardish--${changesName}.flex`
+	// `gboardish--${formatCurrTime()}.flex`
+	`gboardish--${changesName}.flex`
 )
 const outputFlexFilePath = path.join(__dirname, 'flex_compressed', 'gboardish.flex')
 
@@ -33,7 +33,7 @@ const outputFlexFilePath = path.join(__dirname, 'flex_compressed', 'gboardish.fl
 compressToFlexFile(inputFolderPath, outputFlexFilePathDev)
 
 /* PRODUCTION */
-// compressToFlexFile(inputFolderPath, outputFlexFilePathDev)
+compressToFlexFile(inputFolderPath, outputFlexFilePath)
 
 console.log({ inputFolderPath, outputFlexFilePath })
 console.log('Files compressed back to Flex successfully.')
