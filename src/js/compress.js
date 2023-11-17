@@ -16,7 +16,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'candidate-clip clr spacebar-bg bless and keys-bg bordered'
+let changesName = 'candidate-clip 4 bless from shape-rounded-hc to shape-rounded'
 // changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
