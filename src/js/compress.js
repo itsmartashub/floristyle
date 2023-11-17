@@ -16,7 +16,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'emoji-key-tab:focused tweaak color'
+let changesName = 'emoji-key-tab-focused tweaak color and add new keywords'
 // changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
@@ -25,9 +25,10 @@ const outputFlexFilePathDev = path.join(
 	__dirname,
 	'../flex_compressed/dev',
 	// `gboardish--${formatCurrTime()}.flex`
-	`gboardish--${changesName}.flex`
+	// `gboardish--${changesName}.flex`
+	`gboardish--${formatCurrTime()}--${changesName}.flex`
 )
-const outputFlexFilePath = path.join(__dirname, 'flex_compressed', 'gboardish.flex')
+const outputFlexFilePath = path.join(__dirname, '../flex_compressed', 'gboardish.flex')
 
 /* DEV */
 compressToFlexFile(inputFolderPath, outputFlexFilePathDev)
