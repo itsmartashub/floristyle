@@ -26,13 +26,12 @@
 
 <br/>
 
-## Important
-
-⚠️ **For compatibility with these Material You themes (Android 12+), ensure you download the `apk` file provided in the official [Florisboard Releases](https://github.com/florisboard/florisboard/releases) starting from `v0.4.0-alpha06` version where Material You feature has been officialy implemented.**
+> [!IMPORTANT]  
+> **For compatibility with these Material You themes (Android 12+), ensure you download the `apk` file provided in the official [Florisboard Releases](https://github.com/florisboard/florisboard/releases) starting from `v0.4.0-alpha05` version where Material You feature has been officialy implemented.**
 
 ## Setup
 
-**1.** &nbsp; Open the **FlorisBoard** app <sup>`v0.4.0-alpha06` and above [[link](https://github.com/florisboard/florisboard/releases)]</sup> <br/>
+**1.** &nbsp; Open the **FlorisBoard** app <sup>`v0.4.0-alpha05` and above [[link](https://github.com/florisboard/florisboard/releases)]</sup> <br/>
 **2.** &nbsp; Click on `Theme` ➡️ `Manage installed themes` <br/>
 **3.** &nbsp; Click on `Import` ➡️ `Select files` <br/>
 **4.** &nbsp; Select the `flex` file you have downloaded <sup>`gboardish.flex`</sup> <br/>
@@ -50,5 +49,5 @@
 
 -   [Florisboard](https://github.com/florisboard/florisboard), an outstanding free and open-source Android keyboard, is the result of the remarkable work of [@patrickgold](https://github.com/patrickgold). <br />
 -   I express deep gratitude to each [Florisboard contributor](https://github.com/florisboard/florisboard/graphs/contributors) whose individual efforts have contributed to its excellence. Thank you for your invaluable dedication to crafting an exceptional user experience.
--   A huge thank to [@1fexd](https://github.com/1fexd) <sup>[[LinkSheet](https://github.com/1fexd/LinkSheet) app creator]</sup> for seamlessly integrating the Material You feature into Florisboard. His contribution not only enhances the overall experience but also makes dynamic themes a reality – much appreciated.
+-   A huge thank to [@1fexd](https://github.com/1fexd) <sup>[[LinkSheet](https://github.com/1fexd/LinkSheet) app creator]</sup> for seamlessly integrating the Material You feature into Florisboard. His contribution makes dynamic themes a reality – much appreciated.
 -   I'd want to convey my heartfelt thank to the brilliant developer behind the ingenious, groundbreaking, feature-rich **Florisboard Theme Editor** especially – [@patrickgold](https://github.com/patrickgold). His outstanding invention makes it possible to create personalised themes so that we can unleash our creativity. His exceptional work is greatly appreciated.
