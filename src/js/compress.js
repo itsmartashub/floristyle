@@ -16,9 +16,9 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'adjust incognito and Reorder Actions bg'
-let version = '2.1.1'
-// changesName = changesName.replaceAll(' ', '_')
+let changesName = 'fix light borderless card-bg'
+let version = '2.1.2'
+changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
 const inputFolderPath = '../flex_decompressed'
@@ -29,13 +29,18 @@ const outputFlexFilePathDev = path.join(
 	// `gboardish--${changesName}.flex`
 	`gboardish--${formatCurrTime()}--${changesName}.flex`
 )
-const outputFlexFilePath = path.join(__dirname, '../flex_compressed/prod', `gboardish-v${version}.flex`)
+const outputFlexFilePathTest = path.join(
+	__dirname,
+	'../flex_compressed/test',
+	`gboardish-v${version}-${changesName}.flex`
+)
+const outputFlexFilePathProd = path.join(__dirname, '../flex_compressed/prod', `gboardish-v${version}.flex`)
 
 /* DEV */
-compressToFlexFile(inputFolderPath, outputFlexFilePathDev)
+compressToFlexFile(inputFolderPath, outputFlexFilePathTest)
 
 /* PRODUCTION */
-compressToFlexFile(inputFolderPath, outputFlexFilePath)
+// compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
 
-console.log({ inputFolderPath, outputFlexFilePath })
+console.log({ inputFolderPath, outputFlexFilePathProd })
 console.log('Files compressed back to Flex successfully.')
