@@ -50,6 +50,14 @@
 -   🌒 **DARKER** (Border/Borderless)
 -   🌑 **AMOLED** (Border/Borderless)
 
+## Known Issues
+
+Check out the [Florisboard Discussion **#2409**](https://github.com/florisboard/florisboard/discussions/2409)
+
+-   **Color Palette Changes**: It seems that dynamic color palette used by Florisboard has changed with the latest `v0.4.0-beta01` update. Certain color shades for elements appear more aggressive than in the previous `v0.4.0-alpha06` version.
+
+-   **Android 14 Material You Issue**: It looks like in **Android 14** there are inconsistencies with the offered Material You color palette. It appears that the colors of certain dynamic variables, such as `inverseOnSurface` and `surface`, etc., differ between **Android 14** and **Android 13** ([#7](https://github.com/itsmartashub/floristyle/issues/7))
+
 ## Credits
 
 -   [Florisboard](https://github.com/florisboard/florisboard), an outstanding free and open-source Android keyboard, is the result of the remarkable work of [@patrickgold](https://github.com/patrickgold). <br />
