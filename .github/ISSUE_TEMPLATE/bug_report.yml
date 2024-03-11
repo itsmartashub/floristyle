@@ -48,7 +48,7 @@ body:
           description: Provide a clear and concise description of what you expected to happen.
           placeholder: |
               Example:
-               'X should happen…'
+               "X should happen…"
       validations:
           required: true
 
@@ -58,7 +58,7 @@ body:
           description: Provide a clear and concise description of what happened.
           placeholder: |
               Example:
-                'X happened instead…'
+                "X happened instead…"
       validations:
           required: true
 
@@ -75,14 +75,15 @@ body:
       id: gboardish-version
       attributes:
           label: Gboardish version (Required)
-          placeholder: Example "v2.1.0"
+          placeholder: |
+              Example: "v2.1.0"
       validations:
           required: true
 
     - type: input
       id: android-version
       attributes:
-          label: Android version
+          label: Android version (Required)
           placeholder: |
               Example: "Android 13"
       validations:
@@ -91,7 +92,7 @@ body:
     - type: input
       id: device
       attributes:
-          label: Device
+          label: Device (Required)
           placeholder: |
               Example: "Samsung Galaxy A54"
       validations:
