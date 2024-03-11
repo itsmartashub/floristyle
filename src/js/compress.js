@@ -16,7 +16,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'fix light borderless card-bg'
+let changesName = 'fix light borderless card and mic bg'
 let version = '2.1.2'
 changesName = changesName.replaceAll(' ', '_')
 
@@ -36,11 +36,11 @@ const outputFlexFilePathTest = path.join(
 )
 const outputFlexFilePathProd = path.join(__dirname, '../flex_compressed/prod', `gboardish-v${version}.flex`)
 
-/* DEV */
-compressToFlexFile(inputFolderPath, outputFlexFilePathTest)
+/* TEST */
+// compressToFlexFile(inputFolderPath, outputFlexFilePathTest)
 
 /* PRODUCTION */
-// compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
+compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
 
 console.log({ inputFolderPath, outputFlexFilePathProd })
 console.log('Files compressed back to Flex successfully.')
