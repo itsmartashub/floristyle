@@ -1,0 +1,119 @@
+name: 🐛 Bug Report
+description: Create a report about a bug you experienced while using Floristyle themes.
+title: '[BUG] this_replace_with_title'
+labels: ['bug']
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Please fill out the sections below to help me identify and fix the bug.
+
+              Thank you for taking the time to report this bug.
+
+    - type: checkboxes
+      id: duplicates
+      attributes:
+          label: Prerequisites (Required)
+          options:
+              - label: I [searched for any existing report](https://github.com/itsmartashub/floristyle/issues?q=is%3Aissue) about this bug to avoid opening a duplicate.
+                required: true
+              - label: This issue contains only one bug.
+                required: true
+              - label: The title of this issue accurately describes the bug.
+                required: true
+
+    - type: textarea
+      id: description
+      attributes:
+          label: Bug Description (Required)
+          description: Please provide a clear and concise description of the problem you encountered.
+      validations:
+          required: true
+
+    - type: textarea
+      id: steps-to-reproduce
+      attributes:
+          label: Steps to reproduce
+          placeholder: |
+              Example:
+                1. First step
+                2. Second step
+                3. Issue here
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Expected Behavior (Required)
+          description: Provide a clear and concise description of what you expected to happen.
+          placeholder: |
+              Example:
+               'X should happen…'
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Actual Behavior (Required)
+          description: Provide a clear and concise description of what happened.
+          placeholder: |
+              Example:
+                'X happened instead…'
+      validations:
+          required: true
+
+    - type: input
+      id: florisboard-version
+      attributes:
+          label: FlorisBoard Version (Required)
+          placeholder: |
+              Example: "v0.4.0-alpha06"
+      validations:
+          required: true
+
+    - type: input
+      id: gboardish-version
+      attributes:
+          label: Gboardish version (Required)
+          placeholder: Example "v2.1.0"
+      validations:
+          required: true
+
+    - type: input
+      id: android-version
+      attributes:
+          label: Android version
+          placeholder: |
+              Example: "Android 13"
+      validations:
+          required: true
+
+    - type: input
+      id: device
+      attributes:
+          label: Device
+          placeholder: |
+              Example: "Samsung Galaxy A54"
+      validations:
+          required: true
+
+    - type: textarea
+      id: screenshots
+      attributes:
+          label: Screenshots or Videos (Optional)
+          description: If applicable, attach any relevant screenshots or videos showing the issue.
+      validations:
+          required: false
+
+    - type: textarea
+      id: additional-information
+      attributes:
+          label: Additional Information (Optional)
+          description: Provide any additional information about this bug.
+      validations:
+          required: false
+
+    - type: markdown
+      attributes:
+          value: |
+              ### Thanks for reporting this issue! 🙏 I will investigate and get back to you as soon as possible.
