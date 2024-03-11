@@ -29,6 +29,11 @@
 > [!IMPORTANT]  
 > **For compatibility with these Material You themes (Android 12+), ensure you download the `apk` file provided in the official [Florisboard Releases](https://github.com/florisboard/florisboard/releases) starting from `v0.4.0-alpha05` version where Material You feature has been officialy implemented.**
 
+## Version Recommendations
+
+-   For Florisboard [`v0.4.0-beta01`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta01) use Gboardish [`v2.1.2`](https://github.com/itsmartashub/floristyle/releases/tag/v2.1.2)
+-   For Florisboard [`v0.4.0-alpha06`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-alpha06) use Gboardish [`v2.1.0`](https://github.com/itsmartashub/floristyle/releases/tag/v2.1.0)
+
 ## Setup
 
 **1.** &nbsp; Open the **FlorisBoard** app <sup>`v0.4.0-alpha05` and above [[link](https://github.com/florisboard/florisboard/releases)]</sup> <br/>
