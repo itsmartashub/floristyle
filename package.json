@@ -1,11 +1,11 @@
 {
 	"name": "floristyle",
-	"version": "2.1.0",
+	"version": "1.0.0",
 	"description": "Dynamic Material You themes for the Florisboard keyboard. Make the Florisboard keyboard's UI more similar to Gboard.",
 	"main": "index.js",
 	"scripts": {
-		"fflex": "node ./src/js/decompress.js",
-		"2flex": "node ./src/js/compress.js"
+		"from-flex": "node ./src/js/decompress.js",
+		"to-flex": "node ./src/js/compress.js"
 	},
 	"repository": {
 		"type": "git",

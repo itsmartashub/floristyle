@@ -17,6 +17,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 }
 
 let changesName = 'adjust incognito and Reorder Actions bg'
+let version = '2.1.1'
 // changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
@@ -28,7 +29,7 @@ const outputFlexFilePathDev = path.join(
 	// `gboardish--${changesName}.flex`
 	`gboardish--${formatCurrTime()}--${changesName}.flex`
 )
-const outputFlexFilePath = path.join(__dirname, '../flex_compressed', 'gboardish.flex')
+const outputFlexFilePath = path.join(__dirname, '../flex_compressed/prod', `gboardish-v${version}.flex`)
 
 /* DEV */
 compressToFlexFile(inputFolderPath, outputFlexFilePathDev)
