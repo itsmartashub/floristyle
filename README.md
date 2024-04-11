@@ -52,11 +52,11 @@
 
 ## Known Issues
 
-Check out the [Florisboard Discussion **#2409**](https://github.com/florisboard/florisboard/discussions/2409)
+-   **Color Palette Changes**: It seems that dynamic color palette used by Florisboard has changed with the latest [**`v0.4.0-beta01`**](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta01) by updating the [`material3` dependency to `v1.2.0`](https://material.io/blog/material-3-compose-1-2). Certain color shades for elements appear more aggressive than in the previous [**`v0.4.0-alpha06`**](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-alpha06) version.
 
--   **Color Palette Changes**: It seems that dynamic color palette used by Florisboard has changed with the latest `v0.4.0-beta01` update. Certain color shades for elements appear more aggressive than in the previous `v0.4.0-alpha06` version.
+-   **Android 14 Material You Issue**: It looks like in **Android 14** there are inconsistencies with the offered `MD3` color palette. It appears that the colors of certain dynamic variables, such as `inverseOnSurface`, `surface`, etc. differ between **Android 14** and **Android 13** ([**#7**](https://github.com/itsmartashub/floristyle/issues/7)) 
 
--   **Android 14 Material You Issue**: It looks like in **Android 14** there are inconsistencies with the offered Material You color palette. It appears that the colors of certain dynamic variables, such as `inverseOnSurface` and `surface`, etc., differ between **Android 14** and **Android 13** ([#7](https://github.com/itsmartashub/floristyle/issues/7))
+See  **[#2409](https://github.com/florisboard/florisboard/discussions/2409)**
 
 ## Credits
 
