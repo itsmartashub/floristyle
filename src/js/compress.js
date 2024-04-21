@@ -16,8 +16,8 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'fix light borderless card and mic bg'
-let version = '2.1.2'
+let changesName = 'rewrite colors due to new surface color shades'
+let version = '2.2.0'
 changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
@@ -37,7 +37,7 @@ const outputFlexFilePathTest = path.join(
 const outputFlexFilePathProd = path.join(__dirname, '../flex_compressed/prod', `gboardish-v${version}.flex`)
 
 /* TEST */
-// compressToFlexFile(inputFolderPath, outputFlexFilePathTest)
+compressToFlexFile(inputFolderPath, outputFlexFilePathTest)
 
 /* PRODUCTION */
 compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
