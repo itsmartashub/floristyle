@@ -17,7 +17,7 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 }
 
 let changesName = 'rewrite colors due to new surface color shades'
-let version = '2.2.0'
+let version = '3.0.0'
 changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
