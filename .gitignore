@@ -1,11 +1,5 @@
 node_modules
 
-# js/flex_compressed/dev
-# js/flex_compressed/gboardish-original.flex
-# js/flex_decompressed
-
-src/flex_compressed/dev
-src/flex_compressed/test
 src/flex_compressed/input
+src/flex_compressed/test
 src/flex_decompressed
-releases
