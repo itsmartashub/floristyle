@@ -24,7 +24,7 @@ function decompressFlexFile(inputFlexFilePath, outputFolderPath) {
 	
 const outputFolderPath = 'js/flex_decompressed'
 */
-let version = '2.2.0'
+let version = '3.0.0'
 
 const inputFlexFilePath = path.join(__dirname, '../flex_compressed/input', `gboardish-v${version}.flex`)
 
