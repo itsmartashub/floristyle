@@ -16,8 +16,8 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	zip.writeZip(outputFlexFilePath)
 }
 
-let changesName = 'rewrite colors due to new surface color shades'
-let version = '3.0.0'
+let changesName = 'update metadata'
+let version = '3.0.1'
 changesName = changesName.replaceAll(' ', '_')
 
 // const inputFolderPath = 'flex_decompressed'
