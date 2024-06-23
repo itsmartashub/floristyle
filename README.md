@@ -31,7 +31,7 @@
 
 ## Version Recommendations
 
--   For Florisboard **[`v0.4.0-beta02`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta02)** use Gboardish **[`v3.0.0`](https://github.com/itsmartashub/floristyle/releases/tag/v3.0.0)**
+-   For Florisboard **[`v0.4.0-beta02`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta02)** use Gboardish **[`v3.0.0`](https://github.com/itsmartashub/floristyle/releases/tag/v3.0.0)** and above
 -   For Florisboard **[`v0.4.0-beta01`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta01)** use Gboardish **[`v2.1.2`](https://github.com/itsmartashub/floristyle/releases/tag/v2.1.2)**
 -   For Florisboard **[`v0.4.0-alpha06`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-alpha06)** use Gboardish **[`v2.1.0`](https://github.com/itsmartashub/floristyle/releases/tag/v2.1.0)**
 
