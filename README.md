@@ -36,13 +36,21 @@
 -   For Florisboard **[`v0.4.0-alpha06`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-alpha06)** use Gboardish **[`v2.1.0`](https://github.com/itsmartashub/floristyle/releases/tag/v2.1.0)**
 
 ## Setup
+### Florisboard [`v0.4.0-beta03`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta03) and later
+1.   Open the **FlorisBoard** app
+2.   Click on `🧩 Addons & Extensions`
+3.   Click on `Import` ➡️ `Select files`
+4.   Select the `flex` file you have downloaded <sup>`gboardish-v3.0.1.flex` and later</sup>
+5.   You should see the preview content of the `flex` file. Press `Import` 
+6.   Go back to the main page, press `🎨 Theme ` and then select the theme you prefer for `☀️ Day theme `  and `🌙 Night theme ` 
 
-**1.** &nbsp; Open the **FlorisBoard** app <br/>
-**2.** &nbsp; Click on `Theme` ➡️ `Manage installed themes` <br/>
-**3.** &nbsp; Click on `Import` ➡️ `Select files` <br/>
-**4.** &nbsp; Select the `flex` file you have downloaded <sup>`gboardish-vX.X.X.flex`</sup> <br/>
-**5.** &nbsp; You should see `10` new themes. <br/>
-**6.** &nbsp; Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
+### Florisboard [`v0.4.0-beta02`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta02) and earlier
+1. Open the **FlorisBoard** app <br/>
+2. Click on `Theme` ➡️ `Manage installed themes` <br/>
+3. Click on `Import` ➡️ `Select files` <br/>
+4. Select the `flex` file you have downloaded <sup>`gboardish-v*.*.*.flex`</sup> <br/>
+5. You should see `10` new themes. <br/>
+6. Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
 
 ## Themes <sup>(10)</sup>
 
