@@ -1,8 +1,30 @@
 const path = require('path')
 const AdmZip = require('adm-zip')
 
-const { formatCurrTime } = require('./utils')
+const version = '3.0.2'
+const inputFolderPath = '../flex_decompressed'
 
+/* DEBUG */
+let changesName = '#12'
+changesName = changesName.replaceAll(' ', '_')
+
+const outputFlexFilePathDebug = path.join(
+	__dirname,
+	'../flex_compressed/🐛 debug',
+	`gboardish-v${version}-${changesName}.flex`
+)
+const outputFlexFilePathProd = path.join(__dirname, '../flex_compressed/🚀 prod', `gboardish-v${version}.flex`)
+
+/* 🐛 DEBUG */
+// compressToFlexFile(inputFolderPath, outputFlexFilePathDebug)
+
+/* 🚀 PRODUCTION */
+compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
+// console.log({ inputFolderPath, outputFlexFilePathProd })
+
+console.log('Files compressed back to Flex successfully.')
+
+/* FUNCTIONS */
 function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	const zip = new AdmZip()
 
@@ -15,32 +37,3 @@ function compressToFlexFile(inputFolderPath, outputFlexFilePath) {
 	// Write the zip file
 	zip.writeZip(outputFlexFilePath)
 }
-
-let changesName = 'update metadata'
-let version = '3.0.1'
-changesName = changesName.replaceAll(' ', '_')
-
-// const inputFolderPath = 'flex_decompressed'
-const inputFolderPath = '../flex_decompressed'
-const outputFlexFilePathDev = path.join(
-	__dirname,
-	'../flex_compressed/dev',
-	// `gboardish--${formatCurrTime()}.flex`
-	// `gboardish--${changesName}.flex`
-	`gboardish--${formatCurrTime()}--${changesName}.flex`
-)
-const outputFlexFilePathTest = path.join(
-	__dirname,
-	'../flex_compressed/test',
-	`gboardish-v${version}-${changesName}.flex`
-)
-const outputFlexFilePathProd = path.join(__dirname, '../flex_compressed/prod', `gboardish-v${version}.flex`)
-
-/* TEST */
-compressToFlexFile(inputFolderPath, outputFlexFilePathTest)
-
-/* PRODUCTION */
-compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
-
-console.log({ inputFolderPath, outputFlexFilePathProd })
-console.log('Files compressed back to Flex successfully.')

@@ -1,5 +1,5 @@
 node_modules
 
 src/flex_compressed/input
-src/flex_compressed/test
+src/flex_compressed/🐛 debug
 src/flex_decompressed
