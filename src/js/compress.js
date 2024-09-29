@@ -1,11 +1,11 @@
 const path = require('path')
 const AdmZip = require('adm-zip')
 
-const version = '3.0.2'
+const version = '3.1.0'
 const inputFolderPath = '../flex_decompressed'
 
 /* DEBUG */
-let changesName = '#12'
+let changesName = 'newoleds--fix-actionkeyspressed-DBL-spacebarbgpressed-Lclipbg'
 changesName = changesName.replaceAll(' ', '_')
 
 const outputFlexFilePathDebug = path.join(
@@ -16,10 +16,10 @@ const outputFlexFilePathDebug = path.join(
 const outputFlexFilePathProd = path.join(__dirname, '../flex_compressed/🚀 prod', `gboardish-v${version}.flex`)
 
 /* 🐛 DEBUG */
-// compressToFlexFile(inputFolderPath, outputFlexFilePathDebug)
+compressToFlexFile(inputFolderPath, outputFlexFilePathDebug)
 
 /* 🚀 PRODUCTION */
-compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
+// compressToFlexFile(inputFolderPath, outputFlexFilePathProd)
 // console.log({ inputFolderPath, outputFlexFilePathProd })
 
 console.log('Files compressed back to Flex successfully.')

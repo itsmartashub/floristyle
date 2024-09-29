@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"from-flex": "node ./src/js/decompress.js",
-		"to-flex": "node ./src/js/compress.js"
+		"to-flex": "node ./src/js/compress.js",
+		"build:debug": "node ./src/js/compress.js",
+		"decompress": "node ./src/js/decompress.js"
 	},
 	"repository": {
 		"type": "git",

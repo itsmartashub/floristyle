@@ -2,8 +2,11 @@ const path = require('path')
 const fs = require('fs')
 const AdmZip = require('adm-zip')
 
-const version = '3.0.1'
-const inputFlexFilePath = path.join(__dirname, '../flex_compressed/input', `gboardish-v${version}.flex`)
+const version = '3.2.0'
+// const filename = 'newoled'
+const filename = 'squash and edit for next release'
+// const inputFlexFilePath = path.join(__dirname, '../flex_compressed/input', `gboardish-v${version}.flex`)
+const inputFlexFilePath = path.join(__dirname, '../flex_compressed/input', `gboardish-v${version}-${filename}.flex`)
 const outputFolderPath = './src/flex_decompressed'
 
 decompressFlexFile(inputFlexFilePath, outputFolderPath)
