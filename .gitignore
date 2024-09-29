@@ -1,5 +1,6 @@
 node_modules
 
-src/flex_compressed/input
-src/flex_compressed/🐛 debug
-src/flex_decompressed
+src/input
+src/debug
+# src/decompressed/extension.json
+src/decompressed
