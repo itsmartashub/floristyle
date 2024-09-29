@@ -2,6 +2,5 @@ node_modules
 
 src/input
 src/debug
-# src/decompressed
-
-.env
+# src/decompressed/extension.json
+src/decompressed

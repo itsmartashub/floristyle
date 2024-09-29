@@ -1,5 +1,3 @@
-require('dotenv').config() // Add this at the top if using .env for environment variables
-
 const fs = require('fs')
 const path = require('path')
 const AdmZip = require('adm-zip')
