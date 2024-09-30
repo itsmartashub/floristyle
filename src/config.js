@@ -1,7 +1,7 @@
 // Configuration for builds
 const config = {
 	VERSION: '4.0.0', // Version of the build
-	CHANGE_NAME: 'fix-cand-word-pressed', // Change name for debug builds, empty for production
+	CHANGE_NAME: 'replace-emoji-tab-focus-accent-hc-with-accent', // Change name for debug builds, empty for production
 	// BUILD_FOLDER: 'debug', // Default build folder, can be 'debug' or 'prod'
 }
 
