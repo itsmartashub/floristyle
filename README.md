@@ -27,41 +27,25 @@
 <br/>
 
 > [!IMPORTANT]  
-> **For compatibility with these Material You themes (Android 12+), ensure you download the `apk` file provided in the official [FlorisBoard Releases](https://github.com/florisboard/florisboard/releases) starting from `v0.4.0-alpha05` version where Material You feature has been officialy implemented.**
-
-## Version Recommendations
-
--   For Florisboard **[`v0.4.0-beta02`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta02)** use Gboardish **[`v3.0.0`](https://github.com/itsmartashub/floristyle/releases/tag/v3.0.0)** and above
--   For Florisboard **[`v0.4.0-beta01`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta01)** use Gboardish **[`v2.1.2`](https://github.com/itsmartashub/floristyle/releases/tag/v2.1.2)**
--   For Florisboard **[`v0.4.0-alpha06`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-alpha06)** use Gboardish **[`v2.1.0`](https://github.com/itsmartashub/floristyle/releases/tag/v2.1.0)**
+> **For compatibility with these Material You themes (Android 12+), ensure you download the `apk` file provided in the official [FlorisBoard Releases](https://github.com/florisboard/florisboard/releases) starting from `v0.4.0` version where Material You feature has been officialy implemented.**
 
 ## Setup
-### Florisboard [`v0.4.0-beta03`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta03) and later
-1.   Open the **FlorisBoard** app
-2.   Click on `🧩 Addons & Extensions`
-3.   Click on `Import` ➡️ `Select files`
-4.   Select the `flex` file you have downloaded <sup>`gboardish-v3.0.1.flex` and later</sup>
-5.   You should see the preview content of the `flex` file. Press `Import` 
-6.   Go back to the main page, press `🎨 Theme ` and then select the theme you prefer for `☀️ Day theme `  and `🌙 Night theme ` 
 
-### Florisboard [`v0.4.0-beta02`](https://github.com/florisboard/florisboard/releases/tag/v0.4.0-beta02) and earlier
-1. Open the **FlorisBoard** app <br/>
-2. Click on `Theme` ➡️ `Manage installed themes` <br/>
-3. Click on `Import` ➡️ `Select files` <br/>
-4. Select the `flex` file you have downloaded <sup>`gboardish-v*.*.*.flex`</sup> <br/>
-5. You should see `10` new themes. <br/>
-6. Go back to `Theme`, and then press `Selected theme` to select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
+1.  Open the **Florisboard** app
+2.  Click on `🧩 Addons & Extensions`
+3.  Click on `Import` ➡️ `Select files`
+4.  Select the `flex` file you have downloaded <sup>`gboardish-v4.0.0.flex` and later</sup>
+5.  You should see the preview content of the `flex` file. Press `Import`
+6.  Go back to the main page, press `🎨 Theme ` and then select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
 
-## Themes <sup>(10)</sup>
+## Themes <sup>(`14`)</sup>
 
 -   ☀️ **LIGHT** (Border/Borderless)
--   🌓 **DARK** (Border/Borderless)
--   🌒 **DARKER** (Border/Borderless)
+-   🌙 **DARK** (Border/Borderless)
 -   🌑 **AMOLED** (Border/Borderless)
 
 ## Credits
 
--   [Florisboard](https://github.com/florisboard/florisboard), an outstanding free and open-source Android keyboard, is the result of the remarkable work of [@patrickgold](https://github.com/patrickgold). <br />
--   I express deep gratitude to each [Florisboard contributor](https://github.com/florisboard/florisboard/graphs/contributors) whose individual efforts have contributed to its excellence. Thank you for your invaluable dedication to crafting an exceptional user experience.
--   A huge thank to [@1fexd](https://github.com/1fexd) <sup>[[LinkSheet](https://github.com/1fexd/LinkSheet) creator]</sup> for seamlessly integrating the Material You feature into Florisboard. His contribution makes dynamic themes a reality – much appreciated.
--   I'd want to convey my heartfelt thank to the brilliant developer behind the ingenious, groundbreaking, feature-rich **Florisboard Theme Editor** especially – [@patrickgold](https://github.com/patrickgold). His outstanding invention makes it possible to create personalised themes so that we can unleash our creativity. His exceptional work is greatly appreciated.
+-   [Florisboard](https://github.com/florisboard/florisboard), a powerful and feature-rich open-source Android keyboard, is developed and maintained by the talented [@patrickgold](https://github.com/patrickgold) with the invaluable support of an incredible team of [contributors](https://github.com/florisboard/florisboard/graphs/contributors). I’m truly grateful for their hard work and the time they’ve invested in this project.
+
+-   Special thanks to [@1fexd](https://github.com/1fexd) for implementing the **Material You** feature into **Florisboard Theme Editor**, which brings dynamic themes to life. And once again, much appreciation to [@patrickgold](https://github.com/patrickgold) for the **Florisboard Theme Editor**, a brilliant tool for customizing themes and unlocking creativity.
