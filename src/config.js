@@ -1,7 +1,7 @@
 // Configuration for builds
 const config = {
 	VERSION: '4.0.0', // Version of the build
-	CHANGE_NAME: 'evening--match-the-keys-txt-color-w-eveningBL', // Change name for debug builds, empty for production
+	CHANGE_NAME: 'void--revert-candidate-fg-to-accent-to-fix-monochromatic', // Change name for debug builds, empty for production
 	// BUILD_FOLDER: 'debug', // Default build folder, can be 'debug' or 'prod'
 }
 
