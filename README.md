@@ -44,6 +44,11 @@
 -   🌙 **DARK** (Border/Borderless)
 -   🌑 **AMOLED** (Border/Borderless)
 
+>[!TIP]
+>If you feel overwhealmed or bloated with so many floristyle themes, please feel free to delete unused ones by navigating to: 
+>
+> `🧩 Addons & Extensions` > `🎨 Theme extensions` > `Edit` for the `FloriStyle themes` section, then in listed `Bundled themes` press `Delete` for the themes you would like to remove.
+
 ## Credits
 
 [Florisboard](https://github.com/florisboard/florisboard), a powerful and feature-rich open-source Android keyboard, is developed and maintained by the talented [@patrickgold](https://github.com/patrickgold) with the invaluable support of an incredible team of [contributors](https://github.com/florisboard/florisboard/graphs/contributors). I’m truly grateful for their hard work and the time they’ve invested in this project. <br>
