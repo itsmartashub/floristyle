@@ -27,7 +27,7 @@
 <br/>
 
 > [!IMPORTANT]  
-> **For compatibility with these Material You themes (Android 12+), ensure you download the `apk` file provided in the official [FlorisBoard Releases](https://github.com/florisboard/florisboard/releases) starting from `v0.4.0` version where Material You feature has been officialy implemented.**
+> **To ensure compatibility with these Material You themes (Android 12+), it is important to download [FlorisBoard](https://github.com/florisboard/florisboard/releases) starting from version `v0.4.0`, as that’s when the Material You feature was officially introduced.**
 
 ## Setup
 
@@ -46,6 +46,6 @@
 
 ## Credits
 
--   [Florisboard](https://github.com/florisboard/florisboard), a powerful and feature-rich open-source Android keyboard, is developed and maintained by the talented [@patrickgold](https://github.com/patrickgold) with the invaluable support of an incredible team of [contributors](https://github.com/florisboard/florisboard/graphs/contributors). I’m truly grateful for their hard work and the time they’ve invested in this project.
+[Florisboard](https://github.com/florisboard/florisboard), a powerful and feature-rich open-source Android keyboard, is developed and maintained by the talented [@patrickgold](https://github.com/patrickgold) with the invaluable support of an incredible team of [contributors](https://github.com/florisboard/florisboard/graphs/contributors). I’m truly grateful for their hard work and the time they’ve invested in this project. <br>
 
--   Special thanks to [@1fexd](https://github.com/1fexd) for implementing the **Material You** feature into **Florisboard Theme Editor**, which brings dynamic themes to life. And once again, much appreciation to [@patrickgold](https://github.com/patrickgold) for the **Florisboard Theme Editor**, a brilliant tool for customizing themes and unlocking creativity.
+Special thanks to [@1fexd](https://github.com/1fexd) for implementing the **Material You** feature into **Florisboard Theme Editor**, which brings dynamic themes to life. And once again, much appreciation to [@patrickgold](https://github.com/patrickgold) for the **Florisboard Theme Editor**, a brilliant tool for customizing themes and unlocking creativity.
