@@ -1,4 +1,4 @@
-const isDebug = false // Toggle debug mode here
+const isDebug = true // Toggle debug mode here
 const vNumber = '5.1.1'
 const changes = 'test new de-compression'
 

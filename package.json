@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"unpack": "node src/js/decompress.js",
-		"build": "node src/js/compress.js --verbose"
+		"validate": "node src/js/validate.js",
+		"build": "npm run validate && node src/js/compress.js --verbose"
 	},
 	"repository": {
 		"type": "git",
