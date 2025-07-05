@@ -1,6 +1,6 @@
 node_modules
 
-src/input
-src/debug
-# src/decompressed/extension.json
-src/decompressed
+debug
+src/_input
+src/_output
+src/_debug

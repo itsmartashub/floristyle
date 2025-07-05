@@ -1,50 +1,74 @@
-const fs = require('fs')
+// Decompress the latest .flex file from src/_input to src/_output (or custom args), configurable via CLI/env
+
 const path = require('path')
-const AdmZip = require('adm-zip')
+const fs = require('fs').promises
+const fsSync = require('fs')
+const { logInfo, logError, unzipFlex } = require('./utils')
 
-const inputDir = path.join(__dirname, '..', 'input') // Updated path
-const outputDir = path.join(__dirname, '..', 'decompressed') // Updated path
+const getArg = (flag) => {
+	const arg = process.argv.find((a) => a.startsWith(`--${flag}=`))
+	return arg ? arg.split('=')[1] : null
+}
 
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true })
+// Find the latest .flex file in a directory
+const findLatestFlex = async (dir) => {
+	if (!fsSync.existsSync(dir)) return null
 
-// Helper to find the latest flex file
-function findLatestFlexFile(directory) {
+	const files = (await fs.readdir(dir)).filter((f) => f.endsWith('.flex'))
+
+	if (!files.length) return null
+
+	const stats = await Promise.all(
+		files.map(async (f) => ({
+			file: f,
+			mtime: (await fs.stat(path.join(dir, f))).mtime,
+		}))
+	)
+	return stats.sort((a, b) => b.mtime - a.mtime)[0].file
+}
+
+const main = async () => {
 	try {
-		const files = fs.readdirSync(directory).filter((file) => file.endsWith('.flex'))
-		if (!files.length) throw new Error('No .flex files found in the directory')
+		const [, , inputFlex, outputDir] = process.argv
+		const verbose = process.argv.includes('--verbose')
+		let inFile = inputFlex
+		let outDir = outputDir
 
-		return files
-			.map((file) => ({
-				file,
-				mtime: fs.statSync(path.join(directory, file)).mtime,
-			}))
-			.sort((a, b) => b.mtime - a.mtime)[0].file
+		const inputDir = getArg('input') || process.env.INPUT_DIR || path.join(__dirname, '../_input')
+		const outputBase = getArg('output') || process.env.OUTPUT_DIR || path.join(__dirname, '../_output')
+
+		if (!inFile || !outDir) {
+			const latestFlex = await findLatestFlex(inputDir)
+
+			if (!latestFlex) {
+				logError('No .flex file found in ' + inputDir)
+				logError('Did you forget to put a .flex file in src/_input?')
+				process.exit(1)
+			}
+
+			inFile = path.join(inputDir, latestFlex)
+			outDir = outputBase
+
+			if (verbose) logInfo(`Auto-selected: ${inFile}`)
+		}
+
+		if (verbose) {
+			logInfo(`Input .flex: ${inFile}`)
+			logInfo(`Output dir: ${outDir}`)
+		}
+
+		if (!fsSync.existsSync(inFile) || !inFile.endsWith('.flex')) {
+			logError('Input file does not exist or is not a .flex file.')
+			logError('Did you specify the correct file?')
+			process.exit(1)
+		}
+
+		await unzipFlex(inFile, outDir)
+		logInfo('Decompression complete.')
 	} catch (err) {
-		console.error('Error finding latest .flex file:', err.message)
+		logError('Failed to decompress: ' + (err && err.message ? err.message : err))
 		process.exit(1)
 	}
 }
 
-// Decompress the flex file
-function decompressFlexFile(filePath, outputDir) {
-	try {
-		const zip = new AdmZip(filePath)
-		zip.extractAllTo(outputDir, true)
-		console.log(`Decompressed ${filePath} to ${outputDir}`)
-	} catch (err) {
-		console.error('Error decompressing file:', err.message)
-		process.exit(1)
-	}
-}
-
-;(async () => {
-	try {
-		const latestFlexFile = findLatestFlexFile(inputDir)
-		const flexFilePath = path.join(inputDir, latestFlexFile)
-
-		// Decompress
-		decompressFlexFile(flexFilePath, outputDir)
-	} catch (err) {
-		console.error('Error:', err.message)
-	}
-})()
+main()

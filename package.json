@@ -4,11 +4,8 @@
 	"description": "Dynamic Material You themes for the Florisboard keyboard. Make the Florisboard keyboard's UI more similar to Gboard.",
 	"main": "index.js",
 	"scripts": {
-		"decompress": "node src/js/decompress.js",
-		"compress:debug": "node src/js/compressDebug.js",
-		"compress:prod": "node src/js/compressProd.js",
-		"build:debug": "npm run compress:debug",
-		"build:prod": "npm run compress:prod"
+		"unpack": "node src/js/decompress.js",
+		"build": "node src/js/compress.js --verbose"
 	},
 	"repository": {
 		"type": "git",
