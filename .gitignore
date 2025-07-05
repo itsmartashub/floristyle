@@ -1,5 +1,7 @@
 node_modules
 
 debug
+analyze-output.txt
+
 src/_input
 src/_output
