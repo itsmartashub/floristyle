@@ -1,6 +1,6 @@
 const isDebug = true // Toggle debug mode here
 const vNumber = '5.1.1'
-const changes = 'test new de-compression'
+const changes = 'remove current num row styling and update general num look for different keybooard modes'
 
 // Configuration for builds
 const config = {
