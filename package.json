@@ -6,7 +6,7 @@
 	"scripts": {
 		"unpack": "node src/js/decompress.js",
 		"validate": "node src/js/validate.js",
-		"analyze": "node src/js/analyze.js",
+		"stats": "node src/js/stats.js",
 		"build": "npm run validate && node src/js/compress.js --verbose"
 	},
 	"repository": {

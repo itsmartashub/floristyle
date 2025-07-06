@@ -1,7 +1,7 @@
 node_modules
 
 debug
-analyze-output.txt
+stats
 
 src/_input
 src/_output
