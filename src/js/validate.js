@@ -1,6 +1,5 @@
 const path = require('path')
 const fs = require('fs').promises
-// const fsSync = require('fs')
 const { logError, logInfo } = require('./utils')
 
 const inputDir = path.join(__dirname, '../_output')
