@@ -1,6 +1,6 @@
 const isDebug = true // Toggle debug mode here
 const vNumber = '5.1.1'
-const changes = 'remove current num row styling and update general num look for different keybooard modes'
+const changes = 'fix 123 key for numeric_advanced' // Don't use characters since it's used for generating debug file names also. TODO: Add regex check to filter chars to pevent console/build debug error
 
 // Configuration for builds
 const config = {
