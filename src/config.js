@@ -1,4 +1,4 @@
-const isDebug = true // Toggle debug mode here
+const isDebug = false // Toggle debug mode here
 const vNumber = '5.1.1'
 const changes = 'fix number fg in midnight themes to be visible for monochromatic monet' // Don't use characters since this is used for generating debug file names also. TODO: Add regex check to filter chars for preventing console/build debug error
 
