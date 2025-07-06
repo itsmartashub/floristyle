@@ -1,6 +1,6 @@
 const isDebug = true // Toggle debug mode here
 const vNumber = '5.1.1'
-const changes = 'add accent fg for nums in void' // Don't use characters since this is used for generating debug file names also. TODO: Add regex check to filter chars for preventing console/build debug error
+const changes = 'fix fg for Pause and period for abyss in phone2 mode' // Don't use characters since this is used for generating debug file names also. TODO: Add regex check to filter chars for preventing console/build debug error
 
 // Configuration for builds
 const config = {
