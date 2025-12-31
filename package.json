@@ -5,9 +5,10 @@
 	"main": "index.js",
 	"scripts": {
 		"unpack": "node src/js/decompress.js",
+		"pack": "node src/js/compress.js",
 		"validate": "node src/js/validate.js",
-		"stats": "node src/js/stats.js",
-		"build": "npm run validate && node src/js/compress.js --verbose"
+		"stats": "node src/js/stats.js --verbose",
+		"build": "npm run validate && npm run pack"
 	},
 	"repository": {
 		"type": "git",

@@ -1,6 +1,6 @@
 const isDebug = true // Toggle debug mode here
 const vNumber = '5.2.0'
-const changes = 'update Palette style from Neutral to TonalSpot to make colors more vibrant again' // Don't use characters since this is used for generating debug file names also. TODO: Add regex check to filter chars for preventing console/build debug error
+const changes = 'add isNight true to all dark themes' // Don't use characters since this is used for generating debug file names also. TODO: Add regex check to filter chars for preventing console/build debug error
 
 // Configuration for builds
 const config = {
