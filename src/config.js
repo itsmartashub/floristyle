@@ -1,6 +1,6 @@
-const isDebug = true // Toggle debug mode here
+const isDebug = false // Toggle debug mode here
 const vNumber = '6.0.0'
-const changes = 'change output file name to floristyle' // Don't use characters since this is used for generating debug file names also. TODO: Add regex check to filter chars for preventing console/build debug error
+const changes = 'change futoish name to futolight futodark and futoled' // Don't use characters since this is used for generating debug file names also. TODO: Add regex check to filter chars for preventing console/build debug error
 
 // Configuration for builds
 const config = {
