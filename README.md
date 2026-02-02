@@ -25,20 +25,15 @@
 
 <br/>
 
+> [!WARNING]
+> For "futofied" themes, the hint keys are intentionally transparent (they may look invisible even when enabled). This is a clean, personal preference.
+> If needed, you can make them visible by changing the `foreground` value for `key-hint` element in the theme options
+
+
 ## Compatibility
 
 Floristyle themes are specifically designed to be compatible with different versions of Florisboard. Please ensure you are using the correct version of Floristyle for your version of Florisboard to avoid any compatibility issues.
 
-### Florisboard `v0.5.0-alpha01` and above
-
-- Use **Floristyle `v5.0.0` or higher** for full compatibility.
-- These versions have been completely rewritten to support the new theme architecture and features introduced in Florisboard [`v0.5.0-alpha01`](https://github.com/florisboard/florisboard/releases/tag/v0.5.0-alpha01) and above.
-
-### Florisboard `v0.4.x` (Up to `v0.4.6`)
-
-- Use **Floristyle [`v4.0.1`](https://github.com/itsmartashub/floristyle/releases/tag/v4.0.1)**
-- This is the final version of Floristyle that supports Florisboard `v0.4.x`.
-- Floristyle `v4.0.1` **is not compatible** with Florisboard `v0.5.0` or later, so please upgrade if you're using the newer version of Florisboard.
 
 ## Setup
 
@@ -49,7 +44,7 @@ Floristyle themes are specifically designed to be compatible with different vers
 5.  You should see the preview content of the `flex` file. Press `Import`
 6.  Go back to the main page, press `🎨 Theme ` and then select the theme you prefer for `☀️ Day theme ` and `🌙 Night theme `
 
-## Themes <sup>(`22`)</sup>
+## Themes <sup>(`25`)</sup>
 
 - ☀️ **LIGHT** (Border/Borderless)
 - 🌙 **DARK** (Border/Borderless)
@@ -60,7 +55,28 @@ Floristyle themes are specifically designed to be compatible with different vers
 >
 > `🧩 Addons & Extensions` > `🎨 Theme extensions` > `Edit` for the `FloriStyle themes` section, then in listed `Bundled themes` press `Delete` for the themes you would like to remove.
 
-## Change sticky action key
+
+## GUIDE: Monochromatic mode
+
+Since the `v0.5.2` FlorisBoard update, there is a noticeable shift in how system colors are processed. For users who prefer a pure monochromatic look, you might notice that some areas now have a blue-ish tint instead of staying neutral grey (specifically secondary-related and surface-related colors. For more you can check out [this PR discussion](https://github.com/florisboard/florisboard/pull/3145)
+
+If you are using FloriStyle and want to restore a strictly greyscale palette, you can manually define the behavior within the theme settings.
+
+### Steps
+
+1. Navigate to `Addons & Extensions` > `Theme extension`
+2. Select FloriStyle themes and tap `Edit`
+3. Locate your active theme and tap `Edit`
+4. Tap `Edit` again in the first section (where the theme title and metadata are)
+5. Scroll down to the `"Material You"` heading
+6. Under `Palette Style`, manually switch the setting to `Monochrome`
+
+> [!NOTE]
+>  Just keep in mind that if you ever want your keyboard to follow a colorful system theme again, you'll need to go back and revert this setting.
+> If you know of a more efficient approach or if I've missed a simpler way to handle this, please feel free to share. I'm always looking to refine these steps.
+
+
+## GUIDE: Change sticky action key
 
 - If you're not using mic for a sticky key, but some other action key, and you still want it to look like Gboard mic, see small guide how to change it in `Steps`.
 - For better context, see Florisboard issue [#2330](https://github.com/florisboard/florisboard/issues/2330) where point <sup>`2`</sup> is
