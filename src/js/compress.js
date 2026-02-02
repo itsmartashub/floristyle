@@ -26,8 +26,8 @@ const main = async () => {
 				? process.env.DEBUG_DIR || path.resolve(__dirname, '../../debug')
 				: process.env.BUILD_DIR || path.resolve(__dirname, '../../build'))
 		const outFile = isDebug
-			? `gboardish-v${version}-${config.CHANGE_NAME || 'debug'}.flex`
-			: `gboardish-v${version}.flex`
+			? `floristyle-v${version}-${config.CHANGE_NAME || 'debug'}.flex`
+			: `floristyle-v${version}.flex`
 		const outputFlex = path.join(outDir, outFile)
 		const extJson = path.join(inputDir, 'extension.json')
 
